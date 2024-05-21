@@ -90,12 +90,17 @@ footer {
 
     #menu>li {
         padding-left: 1rem;
-        margin-top: 15px;
+        margin-top: 25px;
+    }
+    #logo{
+        font-size: 280%;
+        line-height: 80px;
+        margin: 0 0.5rem;
     }
 
     /* Main */
     main {
-        margin-top: 50.4px;
+        margin-top: 80px;
     }
 
 }
