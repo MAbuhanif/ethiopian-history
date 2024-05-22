@@ -67,6 +67,7 @@ main {
     /* Main element will take any surplus */
     flex: 1 0 auto;
     margin-top: 175.6px;
+    padding: 1rem;
 }
 
 /* Footer  */
