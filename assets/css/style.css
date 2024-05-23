@@ -21,7 +21,9 @@ body {
 h1,
 h2,
 h3 {
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    color: #fff;
 }
 
 
@@ -34,7 +36,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 5px #fff;
-
+  
 }
 
 header a {
@@ -43,10 +45,9 @@ header a {
 }
 
 #logo {
-    font-family: 'Roboto', sans-serif;
     color: #fff;
     margin: 7px 0 5px 0;
-
+    
 }
 
 #menu {
@@ -58,6 +59,7 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
+    
 }
 
 .active {
@@ -72,14 +74,30 @@ main {
     /* Main element will take any surplus */
     flex: 1 0 auto;
     margin-top: 175.6px;
-    padding: 1rem;
     color: #000;
 
 }
-/* #gb{
-    background: url(../images/flag.jpg) no-repeat center center / cover;
+/* Hero Section */
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url(../images/axum.jpg) no-repeat center center/cover;
     position: relative;
-} */
+}
+#overlay-text{
+    background-color: rgba(210, 160, 90, .7);
+    position: relative;
+    font-size: 150%;
+    width: 60%;
+    min-height: 200px;
+    bottom: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+    
+}
+#overlay-text>h2, #overlay-text>h3{
+    color: #fff;
+}
 
 main h1 {
     color: #000;
@@ -88,6 +106,7 @@ main h1 {
 
 main h2 {
     margin: 0.5rem 0;
+    color: #000;
 }
 
 main hr {
