@@ -104,27 +104,33 @@ main {
     text-align: center;
 }
 
-main h1, main h2 {
-    color: #000;
-   
-}
-
-
-main hr {
-    border: 1px solid #000;
-    box-shadow: 0 2px 2px #fff;
-    margin-bottom: 0.5rem;
-}
-
-main p {
-    text-align: justify;
-}
 /* HIstory Section */
-#history{
+#history {
     margin: 20px auto;
     width: 90%;
 
 }
+
+#history h1 {
+    margin-bottom: 20px;
+    font-size: 200%;
+    text-align: center;
+    color: #000;
+}
+
+#history h2 {
+    margin-bottom: 5px;
+    color: #000;
+}
+
+#history hr {
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #fff;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 /* Footer  */
