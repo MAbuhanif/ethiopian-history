@@ -111,6 +111,7 @@ main {
 
 }
 
+
 #history h1 {
     margin-bottom: 20px;
     font-size: 200%;
@@ -119,16 +120,30 @@ main {
 }
 
 #history h2 {
-    margin-bottom: 5px;
     color: #000;
 }
 
 #history hr {
     border: 1px solid #000;
     box-shadow: 0 2px 2px #fff;
-    margin-bottom: 20px;
+    margin: 10px 0;
 }
 
+#history p {
+    padding: 0 20px 20px 20px;
+    line-height: 20px;
+}
+
+#bg-flag {
+    background: url(../images/flag.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 30px;
+}
 
 
 
