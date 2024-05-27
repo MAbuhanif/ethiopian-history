@@ -36,7 +36,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 5px #fff;
-  
+
 }
 
 header a {
@@ -47,7 +47,7 @@ header a {
 #logo {
     color: #fff;
     margin: 7px 0 5px 0;
-    
+
 }
 
 #menu {
@@ -59,7 +59,7 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
-    
+
 }
 
 .active {
@@ -77,45 +77,53 @@ main {
     color: #000;
 
 }
+
 /* Hero Section */
-#hero{
+#hero {
     height: 600px;
     width: 100%;
     background: url(../images/axum.jpg) no-repeat center center/cover;
     position: relative;
 }
-#overlay-text{
-    background-color: rgba(210, 160, 90, .7);
+
+#overlay-text {
+    background-color: #333;
     position: relative;
-    font-size: 150%;
+    font-size: 130%;
     width: 60%;
-    min-height: 200px;
-    bottom: 30px;
-    padding-top: 40px;
-    padding-left: 10px;
-    
-}
-#overlay-text>h2, #overlay-text>h3{
-    color: #fff;
+    min-height: 150px;
+    float: right;
+    top: 150px;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-main h1 {
-    color: #000;
+#overlay-text>h2,
+#overlay-text>h3 {
+    color: #fff;
     text-align: center;
 }
 
-main h2 {
-    margin: 0.5rem 0;
+main h1, main h2 {
     color: #000;
+   
 }
+
 
 main hr {
     border: 1px solid #000;
     box-shadow: 0 2px 2px #fff;
     margin-bottom: 0.5rem;
 }
-main p{
+
+main p {
     text-align: justify;
+}
+/* HIstory Section */
+#history{
+    margin: 20px auto;
+    width: 90%;
+
 }
 
 
@@ -125,16 +133,19 @@ footer {
     color: #fff;
     padding: 1rem;
 }
-#social-links{
+
+#social-links {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
-#social-links i{
+
+#social-links i {
     font-size: 200%;
     color: #fff;
-    
+
 }
+
 /* Media query for tablets: screen size 768px and large */
 @media screen and (min-width: 768px) {
 
@@ -164,6 +175,14 @@ footer {
     /* Main */
     main {
         margin-top: 80px;
+    }
+
+    /* Hero section */
+
+    #overlay-text {
+        width: 300px;
+        right: 1rem;
+        top: 300px;
     }
 
 }
