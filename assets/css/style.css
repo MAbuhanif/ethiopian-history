@@ -135,14 +135,21 @@ main {
 }
 
 #bg-flag {
-    background: url(../images/flag.jpg) no-repeat top center / cover;
+    background: url(../images/flag.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    margin-left: 30px;
+
+
+}
+
+#flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
