@@ -1,216 +1,227 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Astrisk Wildcard selector to override default style of the browser */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* generic project style */
-    color: #040C28;
-    font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* generic project style */
+  color: #040c28;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
 }
-
 
 /* Header */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 5px #fff;
-
+  background-color: #333;
+  color: #fff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 5px #fff;
 }
 
 header a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 #logo {
-    color: #fff;
-    margin: 7px 0 5px 0;
-
+  color: #fff;
+  margin: 7px 0 5px 0;
 }
 
 #menu {
-    list-style-type: none;
-    font-size: 120%;
-    letter-spacing: 4px;
-
+  list-style-type: none;
+  font-size: 120%;
+  letter-spacing: 4px;
 }
 
-#menu>li {
-    margin-bottom: 1em;
-
+#menu > li {
+  margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
-
-
 
 /* Main content */
 main {
-    background-color: #fff;
-    /* Main element will take any surplus */
-    flex: 1 0 auto;
-    margin-top: 175.6px;
-    color: #000;
-
+  background-color: #fff;
+  /* Main element will take any surplus */
+  flex: 1 0 auto;
+  margin-top: 175.6px;
+  color: #000;
 }
 
 /* Hero Section */
 #hero {
-    height: 600px;
-    width: 100%;
-    background: url(../images/axum.jpg) no-repeat center center/cover;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  background: url(../images/axum.jpg) no-repeat center center/cover;
+  position: relative;
 }
 
 #overlay-text {
-    background-color: #333;
-    position: relative;
-    font-size: 130%;
-    width: 60%;
-    min-height: 150px;
-    float: right;
-    top: 150px;
-    padding: 20px;
-    border-radius: 5px;
+  background-color: #333;
+  position: relative;
+  font-size: 130%;
+  width: 60%;
+  min-height: 150px;
+  float: right;
+  top: 150px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
-#overlay-text>h2,
-#overlay-text>h3 {
-    color: #fff;
-    text-align: center;
+#overlay-text > h2,
+#overlay-text > h3 {
+  color: #fff;
+  text-align: center;
 }
 
 /* HIstory Section */
 #history {
-    margin: 20px auto;
-    width: 90%;
-
+  margin: 20px auto;
+  width: 90%;
 }
 
-
 #history h1 {
-    margin-bottom: 20px;
-    font-size: 200%;
-    text-align: center;
-    color: #000;
+  margin-bottom: 20px;
+  font-size: 200%;
+  text-align: center;
+  color: #000;
 }
 
 #history h2 {
-    color: #000;
+  color: #000;
 }
 
 #history hr {
-    border: 1px solid #000;
-    box-shadow: 0 2px 2px #fff;
-    margin: 10px 0;
+  border: 1px solid #000;
+  box-shadow: 0 2px 2px #fff;
+  margin: 10px 0;
 }
 
 #history p {
-    padding: 0 20px 20px 20px;
-    line-height: 20px;
+  padding: 0 20px 20px 20px;
+  line-height: 20px;
+}
+#flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #bg-flag {
-    background: url(../images/flag.jpg) no-repeat center center/cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-
-
+  background: url(../images/flag.jpg) no-repeat center center/cover;
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
 }
-
-#flag {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
 
 /* Footer  */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
 }
 
 #social-links {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 #social-links i {
-    font-size: 200%;
-    color: #fff;
-
+  font-size: 200%;
+  color: #fff;
 }
 
 /* Media query for tablets: screen size 768px and large */
 @media screen and (min-width: 768px) {
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    /* Header */
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  #menu {
+    display: flex;
+  }
 
-    #menu {
-        display: flex;
+  #menu > li {
+    padding-left: 1rem;
+    margin-top: 25px;
+  }
 
-    }
+  #logo {
+    font-size: 280%;
+    line-height: 80px;
+    margin: 0 0.5rem;
+  }
 
-    #menu>li {
-        padding-left: 1rem;
-        margin-top: 25px;
-    }
+  /* Main */
+  main {
+    margin-top: 80px;
+  }
 
-    #logo {
-        font-size: 280%;
-        line-height: 80px;
-        margin: 0 0.5rem;
-    }
+  /* Hero section */
 
-    /* Main */
-    main {
-        margin-top: 80px;
-    }
-
-    /* Hero section */
-
-    #overlay-text {
-        width: 300px;
-        right: 1rem;
-        top: 300px;
-    }
+  #overlay-text {
+    width: 300px;
+    right: 1rem;
+    top: 300px;
+  }
+  /* History Section */
+  #introduction,
+  #early,
+  #modern {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+ .intro, .early, .modern{
+    width: 50%;
+   
+  }
+  #intro-side {
+    background: url(../images/fasil.jpg) no-repeat center center/cover;
+    height: 250px;
+   
+  }
+  #early-side {
+    background: url(../images/dalol.jpg) no-repeat center center/cover;
+    height: 250px;
+  
+  }
+  #modern-side {
+    background: url(../images/lalibella.jpg) no-repeat center center/cover;
+    height: 250px;
+   
+  }
+  #flag{
+    display: none;
+  }
 
 }
