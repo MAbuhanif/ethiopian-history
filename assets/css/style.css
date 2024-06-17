@@ -217,7 +217,12 @@ footer {
   .modern-content {
     flex: 1;
     min-width: 300px;
-
+  }
+  .intro-content p,
+  .early-content p,
+  .modern-content p{
+    text-align: justify;
+    line-height: 1;
   }
   .intro-img,
   .early-img,
