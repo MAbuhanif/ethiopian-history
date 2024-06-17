@@ -156,6 +156,13 @@ footer {
   font-size: 200%;
   color: #fff;
 }
+.intro-img,
+  .early-img,
+  .modern-img {
+    
+    display: none;
+  
+  }
 
 /* Media query for tablets: screen size 768px and large */
 @media screen and (min-width: 768px) {
@@ -194,34 +201,46 @@ footer {
     top: 300px;
   }
   /* History Section */
+  #history {
+    width: 80%;
+  }
+
   #introduction,
   #early,
   #modern {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    gap: 20px;
+    margin-bottom: 30px;
   }
- .intro, .early, .modern{
-    width: 50%;
-   
+  .intro-content,
+  .early-content,
+  .modern-content {
+    flex: 1;
+    min-width: 300px;
+
   }
-  #intro-side {
-    background: url(../images/fasil.jpg) no-repeat center center/cover;
-    height: 250px;
-   
+  .intro-img,
+  .early-img,
+  .modern-img {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  #early-side {
-    background: url(../images/dalol.jpg) no-repeat center center/cover;
-    height: 250px;
-  
-  }
-  #modern-side {
-    background: url(../images/lalibella.jpg) no-repeat center center/cover;
-    height: 250px;
-   
-  }
-  #flag{
-    display: none;
+  .intro-img img,
+  .early-img img,
+  .modern-img img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
   }
 
+  #early {
+    flex-direction: row-reverse;
+  }
+
+  #flag {
+    display: none;
+  }
 }
