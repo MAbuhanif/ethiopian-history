@@ -209,7 +209,7 @@ footer {
   #early,
   #modern {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin-bottom: 30px;
   }
   .intro-content,
@@ -222,7 +222,7 @@ footer {
   .early-content p,
   .modern-content p{
     text-align: justify;
-    line-height: 1;
+    
   }
   .intro-img,
   .early-img,
@@ -230,15 +230,16 @@ footer {
     flex: 1;
     min-width: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
   }
   .intro-img img,
   .early-img img,
   .modern-img img {
-    max-width: 100%;
-    max-height: 300px;
+    width: 100%;
+    min-height: 300px;
     border-radius: 8px;
+    padding-top: 40px;
   }
 
   #early {
