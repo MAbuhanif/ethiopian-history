@@ -121,8 +121,8 @@ main {
 
 #history p {
   padding: 0 20px 20px 20px;
-  line-height: 20px;
-  text-align: justify;
+  line-height: 30px;
+  text-align: left;
 }
 #flag {
   display: flex;
@@ -138,6 +138,15 @@ main {
   border-radius: 50%;
   max-width: 300px;
   max-height: 300px;
+}
+/* parralax section */
+.parralax {
+  width: 100%;
+  height: 225px;
+  background-image: url("../images/dam.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* visit section  */
 #visit {
@@ -156,7 +165,7 @@ main {
 }
 #historical-sites .site img {
   width: 100%;
-  height: auto;
+  min-height: 300px;
   display: block;
 }
 
@@ -226,19 +235,24 @@ footer {
 
   #introduction,
   #early,
-  #modern {
+  #modern,
+  #old-sites,
+  #new-sites {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
   }
   .intro-content,
   .early-content,
-  .modern-content {
+  .modern-content,
+  #axsum,
+  #lalibela {
     flex: 1;
     min-width: 300px;
   }
   .content {
-    text-align: justify;
+    text-align: center;
+    font-size: 130%;
     line-height: 200%;
   }
   .intro-img,
@@ -252,7 +266,8 @@ footer {
   }
   .intro-img img,
   .early-img img,
-  .modern-img img {
+  .modern-img img,
+  .site img {
     width: 100%;
     min-height: 300px;
     max-height: 300px;
@@ -267,18 +282,14 @@ footer {
     display: none;
   }
   /* historical sites section */
-  /* #historical-sites {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  #visit h3{
+    margin-top: 10px;
   }
-
-  #historical-sites .site {
-    flex: 1;
-    margin-bottom: 20px;
+  #historical-sites h2 {
+    text-align: center;
   }
-
-  #historical-sites .site h3 {
-    font-size: 1.5em;
-  } */
+  .site h3 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+  }
 }
