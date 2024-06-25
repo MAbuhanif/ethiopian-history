@@ -169,7 +169,7 @@ main {
   display: block;
 }
 /* About section */
-#about{
+#about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,33 +177,37 @@ main {
   padding: 30px;
   margin-top: 178px;
 }
-#about-content h2, #offer h2{
+#about-map img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+/* #about-map img{
+  max-width: 300px;
+  max-height: 300px;
+  
+} */
+#about-content h2 {
   color: #000;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
-#about-content p{
+#about-content p {
   font-size: 130%;
   padding-left: 15px;
   margin-bottom: 10px;
   line-height: 1.6;
 }
-#offer li{
+#about-content li {
   padding-left: 15px;
   list-style: none;
   line-height: 1.6;
   font-size: 130%;
 }
-#about-map{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#about-map img{
-  max-width: 400px;
-  max-height: 400px;
-  margin-top: 10px;
-}
+
 /* Footer  */
 footer {
   background-color: #333;
@@ -317,7 +321,7 @@ footer {
     display: none;
   }
   /* historical sites section */
-  #visit h3{
+  #visit h3 {
     margin-top: 10px;
   }
   #historical-sites h2 {
@@ -328,12 +332,35 @@ footer {
     letter-spacing: 2px;
   }
   /* About page */
-  #about{
-    display: flex;
-    flex-direction: row;
 
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    flex: 1 0 auto;
+    margin-top: 80px;
   }
-  #about-map{
-    display: none;
+  #about-content h2 {
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  #about-content p {
+    font-size: 130%;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  #about-content li {
+    padding-left: 15px;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 130%;
+  }
+  #about-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
