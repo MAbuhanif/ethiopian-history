@@ -103,7 +103,7 @@ main {
   width: 90%;
 }
 
-#history h1 {
+#ethiopia {
   margin-bottom: 20px;
   text-align: center;
   color: #000;
@@ -186,11 +186,6 @@ main {
   max-height: 300px;
   border-radius: 50%;
 }
-/* #about-map img{
-  max-width: 300px;
-  max-height: 300px;
-  
-} */
 #about-content h2 {
   color: #000;
   letter-spacing: 2px;
@@ -207,6 +202,48 @@ main {
   list-style: none;
   line-height: 1.6;
   font-size: 130%;
+}
+/* contact us page */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+#contact h2,
+#feedback h2 {
+  color: #000;
+  text-align: center;
+}
+label {
+  margin: 10px 0 5px;
+}
+input,
+textarea,
+select {
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+section {
+  margin: 20px 0;
 }
 
 /* Footer  */
@@ -231,44 +268,6 @@ footer {
 .modern-img {
   display: none;
 }
-/* contact us page */
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 600px;
-  margin: 0 auto;
-}
-#contact h2, #feedback h2{
-  color: #000;
-  text-align: center;
-}
-label {
-  margin: 10px 0 5px;
-}
-input, textarea, select {
-  padding: 10px;
-  margin-right: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 100%;
-}
-button {
-  padding: 10px 15px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #555;
-}
-
-section {
-  margin: 20px 0;
-}
-
 
 /* Media query for tablets: screen size 768px and large */
 @media screen and (min-width: 768px) {
@@ -401,5 +400,15 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  /* contact us page */
+  #contact,
+  #feedback {
+    background-color: #fff;
+  }
+  form {
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 10px;
   }
 }

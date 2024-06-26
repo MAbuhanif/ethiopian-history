@@ -56,10 +56,10 @@
       <section id="contact">
         <h2>Contact Us</h2>
         <form action="https://formdump.codeinstitute.net" method="post">
-          <label for="name">Name: </label>
-          <input type="text" name="name" id="name" required /> 
-          <label for="email">Email: </label>
-          <input type="email" name="email" id="email" required />
+          <label for="fname">Name: </label>
+          <input type="text" name="name" id="fname" required /> 
+          <label for="e_mail">Email: </label>
+          <input type="email" name="e_mail" id="e_mail" required />
           <label for="message">Message</label>
           <textarea name="message" id="message" required> </textarea>
           <button type="submit">Submit</button>
@@ -74,6 +74,7 @@
           <input type="email" name="email" id="email" required />
           <label for="rating">Rating:</label>
           <select name="rating" id="rating" required>
+            <option value="" disabled selected>Select Your Rate</option>
             <option value="5">Excellent</option>
             <option value="4">Good</option>
             <option value="3">Average</option>
