@@ -237,14 +237,14 @@ form {
   max-width: 600px;
   margin: 0 auto;
 }
-#contact h2{
+#contact h2, #feedback h2{
   color: #000;
   text-align: center;
 }
 label {
   margin: 10px 0 5px;
 }
-input, textarea {
+input, textarea, select {
   padding: 10px;
   margin-right: 5px;
   border: 1px solid #ccc;
