@@ -242,7 +242,7 @@ button:hover {
   background-color: #555;
 }
 
-section {
+#contact, #feedback {
   margin: 20px 0;
 }
 
